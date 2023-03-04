@@ -17,10 +17,7 @@ public class Enemy : MonoBehaviour
     }
     private void Update()
     {
-        if (currentHealth <= 0)
-        {
-            Destroy(gameObject);
-        }
+        DisableOnDeath();
     }
     private void TakeDamage(int dec_health)
     {
@@ -32,7 +29,16 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Bullet")
         {
             TakeDamage(20); //decrease health of capsule enemy by 20
-            Destroy(collision.gameObject); //destroy bullet
+            collision.gameObject.SetActive(false);
+            DestroyImmediate(collision.gameObject); //destroy bullet
+        }
+    }   
+    public void DisableOnDeath()
+    {
+        if (currentHealth <= 0)
+        {
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

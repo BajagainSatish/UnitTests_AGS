@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class DestroyObj : MonoBehaviour
 {
-    private void Start()
+    public void Start()
     {
         StartCoroutine(MyCoroutine());
     }
-    IEnumerator MyCoroutine()
+    public IEnumerator MyCoroutine()
     {
         yield return new WaitForSeconds(5);
-        Destroy(gameObject); //destroy bullet after 5 sec of being instantiated
+        gameObject.SetActive(false);
+        yield return new WaitForSeconds(2);
+        DestroyImmediate(gameObject); //destroy bullet after 7 sec of being instantiated
     }
     /*
     private void OnCollisionEnter(Collision collision)
