@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalInput;
     float verticalInput;
+    float deltaTime;
+    float x, z;
 
     Vector3 moveDirection;
 
@@ -33,12 +35,26 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+        deltaTime = Time.deltaTime;
     }
     private void MovePlayer()
     {
         //calculate movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f,ForceMode.Force);
-    }
 
+        //Player movement
+        //x = horizontalInput * moveSpeed * Time.deltaTime;
+        //z = verticalInput * moveSpeed * Time.deltaTime;
+        //transform.position += new Vector3(x, 0, z);
+
+        //Player movement
+        transform.position += CalculateMovement(moveSpeed,horizontalInput,verticalInput,deltaTime);
+    }
+    public Vector3 CalculateMovement(float speed, float hor, float ver, float delTime)
+    {
+        x = hor * speed * delTime;
+        z = ver * speed * delTime;
+        return new Vector3(x,0,z);
+    }
 }

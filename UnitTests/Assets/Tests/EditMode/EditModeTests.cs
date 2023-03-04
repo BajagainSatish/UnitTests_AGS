@@ -4,8 +4,10 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-public class EnemyTests
+public class EditModeTests
 {
+    //Enemy Health Tests
+    //multiple test cases with varying health levels
     // A Test behaves as an ordinary method
     [Test]
     [TestCase(-10)]
@@ -44,5 +46,52 @@ public class EnemyTests
         enemyScript.currentHealth = health;
         enemyScript.DisableOnDeath();
         return testObject;
+    }
+    //Enemy Health Tests END
+
+    //Player Movement Test
+    /*
+    [Test]
+    public void MovesAlongXAxis_Right_HorizontalInput()
+    {
+        GameObject testObject = new GameObject();
+        PlayerMovement playerScript = testObject.AddComponent<PlayerMovement>();
+
+        Assert.AreEqual(1(expected value), actual value: playerScript.CalculateMovement((speed)1,(x)1,(z)0,1).x,(time.deltaTime)0.1f);
+    }
+    */
+    [Test]
+    public void MovesAlongXAxis_Right_HorizontalInput()
+    {
+        TestMoveDirection(1, 1, 1, 0);
+    }
+
+    [Test]
+    public void MovesAlongXAxis_Left_HorizontalInput()
+    {
+        TestMoveDirection(-1, 1, -1, 0);
+    }
+
+    [Test]
+    public void MovesAlongZAxis_Up_VerticalInput()
+    {
+        TestMoveDirection(1, 1, 0, 1);
+    }
+
+    [Test]
+    public void MovesAlongZAxis_Down_VerticalInput()
+    {
+        TestMoveDirection(-1,1,0,-1);
+    }
+
+    private static void TestMoveDirection(int direction,int speed,int x, int z)
+    {
+        GameObject testObject = new GameObject();
+        PlayerMovement playerScript = testObject.AddComponent<PlayerMovement>();
+
+        if(x == 0)
+            Assert.AreEqual(direction, playerScript.CalculateMovement(speed, x, z, 1).z, 0.1f);
+        if (z == 0)
+            Assert.AreEqual(direction, playerScript.CalculateMovement(speed, x, z, 1).x, 0.1f);
     }
 }

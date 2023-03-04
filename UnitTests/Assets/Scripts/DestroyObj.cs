@@ -13,7 +13,7 @@ public class DestroyObj : MonoBehaviour
         yield return new WaitForSeconds(5);
         gameObject.SetActive(false);
         yield return new WaitForSeconds(2);
-        DestroyImmediate(gameObject); //destroy bullet after 7 sec of being instantiated
+        Destroy(gameObject); //destroy bullet after 7 sec of being instantiated
     }
     /*
     private void OnCollisionEnter(Collision collision)

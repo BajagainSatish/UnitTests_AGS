@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
-public class ProjectileTest
+public class PlayModeTests
 {
     [UnityTest]
     public IEnumerator Projectile_morethan5s_isINactive()
@@ -37,6 +37,7 @@ public class ProjectileTest
         DestroyObj destroyObj = testObject.AddComponent<DestroyObj>();
 
         yield return new WaitForSeconds(5);
+        //Ctrl+R+M => extract method for efficient code
         Assert.IsTrue(testObject.activeSelf);
     }
 }

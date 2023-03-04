@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
         {
             TakeDamage(20); //decrease health of capsule enemy by 20
             collision.gameObject.SetActive(false);
-            DestroyImmediate(collision.gameObject); //destroy bullet
+            Destroy(collision.gameObject); //destroy bullet
         }
     }   
     public void DisableOnDeath()
