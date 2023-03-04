@@ -13,6 +13,7 @@ public class DestroyObj : MonoBehaviour
         yield return new WaitForSeconds(5);
         Destroy(gameObject); //destroy bullet after 5 sec of being instantiated
     }
+    /*
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "CapsuleEnemy")
@@ -21,4 +22,5 @@ public class DestroyObj : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    */
 }
