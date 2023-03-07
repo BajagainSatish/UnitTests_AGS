@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="0.0.0.0">
+  <Summary numSequencePoints="26" visitedSequencePoints="24" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="92.31" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="5" numClasses="5" visitedMethods="5" numMethods="5" />
+  <Modules>
+    <Module>
+      <Summary numSequencePoints="9" visitedSequencePoints="7" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="77.78" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="2" numClasses="2" visitedMethods="2" numMethods="2" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Scripts</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/BillBoard.cs" />
+        <File uid="2" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/DestroyObj.cs" />
+        <File uid="3" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/Enemy.cs" />
+        <File uid="4" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/HealthBar.cs" />
+        <File uid="5" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/MoveCamera.cs" />
+        <File uid="6" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/PlayerCam.cs" />
+        <File uid="7" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/PlayerMovement.cs" />
+        <File uid="8" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Scripts/Shoot.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>DestroyObj</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void DestroyObj::Start()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="166" ordinal="0" offset="0" sl="8" sc="5" el="8" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="167" ordinal="0" offset="1" sl="9" sc="9" el="9" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="168" ordinal="0" offset="14" sl="10" sc="5" el="10" ec="5" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="66.67" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>DestroyObj/&lt;MyCoroutine&gt;d__1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="66.67" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="4" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="66.67" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Boolean DestroyObj/&lt;MyCoroutine&gt;d__1::MoveNext()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="267" ordinal="0" offset="42" sl="12" sc="5" el="12" ec="5" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="268" ordinal="0" offset="43" sl="13" sc="9" el="13" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="269" ordinal="0" offset="75" sl="14" sc="9" el="14" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="2" uspid="270" ordinal="0" offset="93" sl="15" sc="9" el="15" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="271" ordinal="0" offset="125" sl="16" sc="9" el="16" ec="9" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="272" ordinal="0" offset="142" sl="17" sc="5" el="17" ec="5" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module>
+      <Summary numSequencePoints="17" visitedSequencePoints="17" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="3" numClasses="3" visitedMethods="3" numMethods="3" />
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>PlayMode</ModuleName>
+      <Files>
+        <File uid="10" fullPath="C:/Users/Administrator/OneDrive/Documents/GitHub/AAA/UnitTests_AGS/UnitTests/Assets/Tests/PlayMode/PlayModeTests.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>PlayModeTests/&lt;Projectile_morethan5s_isINactive&gt;d__0</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Boolean PlayModeTests/&lt;Projectile_morethan5s_isINactive&gt;d__0::MoveNext()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="308" ordinal="0" offset="31" sl="12" sc="5" el="12" ec="5" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="309" ordinal="0" offset="32" sl="15" sc="9" el="15" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="310" ordinal="0" offset="43" sl="16" sc="9" el="16" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="311" ordinal="0" offset="60" sl="18" sc="9" el="18" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="312" ordinal="0" offset="92" sl="19" sc="9" el="19" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="313" ordinal="0" offset="109" sl="23" sc="5" el="23" ec="5" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>PlayModeTests/&lt;Projectile_ifNotInstantiated_isNull&gt;d__1</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Boolean PlayModeTests/&lt;Projectile_ifNotInstantiated_isNull&gt;d__1::MoveNext()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="314" ordinal="0" offset="31" sl="27" sc="5" el="27" ec="5" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="315" ordinal="0" offset="32" sl="28" sc="9" el="28" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="316" ordinal="0" offset="55" sl="29" sc="9" el="29" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="317" ordinal="0" offset="71" sl="30" sc="9" el="30" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="318" ordinal="0" offset="83" sl="31" sc="5" el="31" ec="5" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0.0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>PlayModeTests/&lt;Projectile_lessthan5s_isActive&gt;d__2</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="0" nPathComplexity="0" sequenceCoverage="100.0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="100.0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Boolean PlayModeTests/&lt;Projectile_lessthan5s_isActive&gt;d__2::MoveNext()</Name>
+              <FileRef uid="10" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="319" ordinal="0" offset="31" sl="35" sc="5" el="35" ec="5" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="320" ordinal="0" offset="32" sl="36" sc="9" el="36" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="321" ordinal="0" offset="43" sl="37" sc="9" el="37" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="322" ordinal="0" offset="60" sl="39" sc="9" el="39" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="323" ordinal="0" offset="92" sl="41" sc="9" el="41" ec="9" bec="0" bev="0" fileid="10" />
+                <SequencePoint vc="1" uspid="324" ordinal="0" offset="109" sl="42" sc="5" el="42" ec="5" bec="0" bev="0" fileid="10" />
+              </SequencePoints>
+              <BranchPoints />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+  </Modules>
+</CoverageSession>

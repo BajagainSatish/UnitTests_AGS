@@ -1,0 +1,35 @@
+{
+  "summary": {
+    "generatedon": "2023-03-07T10:33:16Z",
+    "parser": "MultiReportParser (6x OpenCoverParser)",
+    "assemblies": 3,
+    "classes": 10,
+    "files": 10,
+    "coveredlines": 139,
+    "uncoveredlines": 23,
+    "coverablelines": 162,
+    "totallines": 416,
+    "linecoverage": 85.8,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 30,
+    "totalmethods": 35,
+    "methodcoverage": 85.7
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Editor", "classes": 1, "coverage": 100, "coveredlines": 35, "coverablelines": 35, "totallines": 97, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 8, "totalmethods": 8, "classesinassembly": [
+        { "name": "EditModeTests", "coverage": 100, "coveredlines": 35, "coverablelines": 35, "totallines": 97, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 8, "totalmethods": 8 } ] },
+      { "name": "PlayMode", "classes": 1, "coverage": 100, "coveredlines": 17, "coverablelines": 17, "totallines": 43, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3, "classesinassembly": [
+        { "name": "PlayModeTests", "coverage": 100, "coveredlines": 17, "coverablelines": 17, "totallines": 43, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 3, "totalmethods": 3 } ] },
+      { "name": "Scripts", "classes": 8, "coverage": 79, "coveredlines": 87, "coverablelines": 110, "totallines": 276, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 79.1, "coveredmethods": 19, "totalmethods": 24, "classesinassembly": [
+        { "name": "BillBoard", "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 14, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "DestroyObj", "coverage": 77.7, "coveredlines": 7, "coverablelines": 9, "totallines": 28, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Enemy", "coverage": 80.7, "coveredlines": 21, "coverablelines": 26, "totallines": 44, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 80, "coveredmethods": 4, "totalmethods": 5 },
+        { "name": "HealthBar", "coverage": 44.4, "coveredlines": 4, "coverablelines": 9, "totallines": 23, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 50, "coveredmethods": 1, "totalmethods": 2 },
+        { "name": "MoveCamera", "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 13, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "PlayerCam", "coverage": 69.2, "coveredlines": 9, "coverablelines": 13, "totallines": 35, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 50, "coveredmethods": 1, "totalmethods": 2 },
+        { "name": "PlayerMovement", "coverage": 84, "coveredlines": 21, "coverablelines": 25, "totallines": 60, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 83.3, "coveredmethods": 5, "totalmethods": 6 },
+        { "name": "Shoot", "coverage": 86.3, "coveredlines": 19, "coverablelines": 22, "totallines": 59, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 80, "coveredmethods": 4, "totalmethods": 5 } ] } ]
+  }
+}
